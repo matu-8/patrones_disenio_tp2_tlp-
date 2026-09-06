@@ -22,7 +22,7 @@ class Inventario  {
   public agregarEquipo(nombre: string, tipo: string, estado: "disponible"|"en reparacion"): void {
     const equipoNuevo: Equipo = { nombre, tipo, estado }
     this.equipos.push(equipoNuevo)
-  }
+    }
   public listarEquipos(): Equipo[] {
     return this.equipos;
   }
