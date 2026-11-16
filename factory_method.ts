@@ -43,7 +43,6 @@ class Notebook extends Equipo{
   }
 }
 
-
 const factory = new EquipoFactory();
 const notebook = factory.crearEquipo("Notebook", {modelo:"Dell XPS", ram:"16GB", procesador: "i7"});
 notebook.detalles();

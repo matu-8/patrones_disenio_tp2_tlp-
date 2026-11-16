@@ -1,7 +1,7 @@
 # Ejercicios sobre Sistema de Inventario de Equipos Informáticos en TypeScript
 
 ## Ejercicio 1: Implementar Patrón Singleton para el Inventario
-
+git clone https://github.com/LazyVim/starter ~/.config/nvim
 **Objetivo**: Implementar un patrón **Singleton** para gestionar un inventario de equipos informáticos.
 
 - Crear una clase `Inventario` que siga el patrón Singleton.
